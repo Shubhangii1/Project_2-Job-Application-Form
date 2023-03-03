@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment form </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container"> 
+    <div class="applybox">
+        <h1>
+            Job Application <span class="web">(Web)</span>
+        </h1>
+        <form action="form">
+            <div class="form_container">
+                <div class="form_content">
+                    <label for="First name">
+                        First name 
+                    </label>
+                    <input id="First name"
+                    placeholder="Enter your name"
+                    name="First name"
+                    >
+                </div>
+                <div class="form_content">
+                    <label for="Last name">
+                        Last name
+                    </label>
+                    <input id="last name"
+                    placeholder="Enter your last name"
+                    name="last name"
+                    >
+                </div>
+                <div class="form_content">
+                    <label for="Email">
+                        Email
+                    </label>
+                    <input
+                    type="email" id="Email"
+                    placeholder="Enter your email"
+                    name="Email"
+                    >
+                </div>
+                <div class="form_content">
+                    <label for="job role">
+                        Job Role
+                    </label>
+                    <select name="job role" id="job_role">
+                        <option value="">Select your job role</option>
+                        <option value="">Frontend Developer</option>
+                        <option value="">Backend Developer</option>
+                        <option value="">Full stack Developer</option>
+                        <option value="">Blockchain Developer</option>
+                        <option value="">Cloud Developer</option>
+                    </select>
+                </div>
+                <div class="text_areacontrol">
+                    <label for="Address">
+                        Address
+                    </label>
+                    <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+                </div>
+                <div class="City">
+                    <label for="City">
+                        City
+                    </label>
+                    <input
+                    id="City"
+                    placeholder="Enter your City"
+                    name="City"
+                    >
+                </div>
+                <div class="Pincode">
+                    <label for="Pincode">
+                        Pincode
+                    </label>
+                    <input
+                    type="number"
+                    id="Pincode"
+                    placeholder="Enter your Pincode"
+                    name="Pincode"
+                    >
+                </div>
+                <div class="date">
+                    <label for="date">
+                        Date
+                    </label>
+                    <input
+                    type="date"
+                    id="date"
+                    name="date"
+                    >
+                </div>
+                <div class="CV">
+                    <label for="CV">
+                        Upload your CV
+                    </label>
+                    <input
+                    
+                    id="CV"
+                    placeholder="Enter your CV"
+                    name="CV"
+                    type="--file"
+                    >
+                </div>
+                <div class="button_container">
+                    <button type="Submit">Submit Form</button>
+                </div>
+            </div>
+        </form>
+    </div>
+  </div> 
+</body>
+</html>
